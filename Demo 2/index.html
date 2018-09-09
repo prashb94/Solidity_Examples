@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Lottery Game</title>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+  crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+    </head>
+    <body>
+     <div class="col-md-8">
+        <h2>Send some ether here to place your bet!</h2><br />
+        <div id="error-div"></div>
+    	<div id="contract-qr"></div>
+    	<div id="content"></div>
+        <script src="custom.js"></script>
+        <div id="game-status">No active ongoing game.</div>
+        <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
+        <h2>List of Participants</h2><br />
+        <div id="player-list"></div>
+        <h2>Winner : </h2><br />
+        <div id="winner-list">Not found yet.</div>
+    </div>
+    </body>
+</html>
